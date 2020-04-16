@@ -1,0 +1,106 @@
+.container
+{
+    height: 100vh;
+    margin-top: 50px;
+}
+.jumbotron
+{
+    background-color: #20b2aa ;
+    padding: 1px;
+    text-align: center;
+    margin: 0px;
+
+}
+p
+{
+    font-size: 30px;
+    color: white;
+}
+.modal
+{
+    display: inline;    
+}
+.modal-header
+{
+    background-color: #25dfc6;
+    color: white;
+    padding: 10px;
+}
+.close{
+    padding: 0px;
+    margin: 0;
+    color: white;
+    opacity: 1;
+}
+#headerLogo{
+    border: 1.5px solid;
+    border-radius: 50%;
+    padding: 3px;
+}
+.form-group{
+    position: relative;
+}
+.form-group i{
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    right: 15px;
+}
+.form-control{
+    /* padding-left: 40px; */
+}
+.bt{
+    background-color: #25dfc6;
+    color: white;
+    margin-top: 46px;
+    font-weight: 700;
+}
+.ft-col
+{
+    color: black;
+}
+hr.hr-text {
+    position: relative;
+      border: none;
+      height: 1px;
+      background: #999;
+  }
+  
+  hr.hr-text::before {
+      content: attr(data-content);
+      display: inline-block;
+      background: #fff;
+      font-weight: bold;
+      font-size: 16px;
+      color: #999;
+      border-radius: 30rem;
+      padding: 0.2rem 2rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .ep_but
+  {
+    margin-top: 30px !important;
+    background-color: #b5e738;
+  }
+  .fb_btn
+  {
+    margin-top: 20px;
+    background-color: #4267B2;
+  
+  }
+  .go_btn
+  {
+    margin-top: 11px !important;
+    background-color: #db4a39;
+    
+  }
+  .or
+  {
+    margin-top: 43px;
+  }
+  form{
+    margin: 15px 0px 0px 0px;
+  }
